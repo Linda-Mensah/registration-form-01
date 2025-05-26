@@ -38,6 +38,10 @@ select {
   box-sizing: border-box;
 }
 
+input:focus {
+  font-size: 18px;
+}
+
 button {
   display: inline-block;
   width: 100%;
