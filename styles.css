@@ -1,0 +1,65 @@
+body {
+  font-family: "Montserrat", "Arial";
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+}
+form {
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+.message {
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+.error {
+  color: red;
+}
+.success {
+  color: rgb(3, 63, 3);
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-family: "Roboto";
+  background-color: darkcyan;
+  border-style: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+#username::placeholder,
+#password::placeholder,
+#confirmPassword::placeholder {
+  font-size: 9px;
+  font-family: "Arial";
+  color: gray;
+}
