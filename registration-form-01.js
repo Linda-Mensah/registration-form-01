@@ -17,7 +17,7 @@ form.addEventListener("submit", function (event) {
     messageContainer.textContent = "Nope. Passwords don't match.";
     messageContainer.classList.add("error");
   } else {
-    messageContainer.textContent = "High five! You're duly registered!";
+    messageContainer.textContent = "High five! Registration successful!";
     messageContainer.classList.add("success");
     form.reset();
   }
